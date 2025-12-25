@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API = "http://localhost:5000/api/auth";
+const API = "https://portfolio-website-backend-77uc.onrender.com";
 const OTP_DURATION = 120;
 
 /* ---------- HELPERS ---------- */
